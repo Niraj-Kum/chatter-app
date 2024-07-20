@@ -14,10 +14,10 @@
 	<groupId>com.chatgossip</groupId>
 	<artifactId>chatter-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name>chatter-server</name>
 	<description>Chat application project for Spring Boot</description>
-	<url/>
-	
+
 	<properties>
 		<java.version>21</java.version>
 	</properties>
@@ -33,14 +33,5 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
 
 </project>
